@@ -1,4 +1,6 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/sepidmoghaddam/Operationalize-a-Machine-Learning-Microservices-API/tree/master.svg?style=svg)](https://circleci.com/gh/sepidmoghaddam/Operationalize-a-Machine-Learning-Microservices-API/tree/master)
+
+Sepid M.
 
 ## Project Overview
 
