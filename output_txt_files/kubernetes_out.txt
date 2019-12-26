@@ -1,0 +1,15 @@
+(.devops) saro@saro-MacBook-Pro project-ml-microservice-kubernetes % ./run_kubernetes.sh
+kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in a future version. Use kubectl run --generator=run-pod/v1 or kubectl create instead.
+Error from server (AlreadyExists): deployments.apps "udacity-project" already exists
+NAME                               READY   STATUS    RESTARTS   AGE
+udacity-project-655874f9f9-8wl9f   1/1     Running   0          2m44s
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   260  100    48  100   212   1615   7134 --:--:-- --:--:-- --:--:--  7310
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
